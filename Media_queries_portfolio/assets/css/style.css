@@ -1,0 +1,114 @@
+
+
+	header{
+		border: solid;
+		border-color: #cccccc;
+		height:100px;
+		
+	}
+	h1{
+		height: 60px;
+		width: 280px;
+		color: white;
+		font-family: 'Georgia', Times, Times New Roman, serif;
+		padding-top: 30px;
+		padding-bottom: 10px;
+		text-align: center;
+		float:left;
+		background-color: #4aaaa5;
+		margin-left: 100px;
+		font-size: 32px;
+
+	}
+	.nav{
+		margin-left: 500px;
+	}
+	#nav1{
+		font-size:20pt;
+		color: #4aaaa5;
+		text-align: center;
+		padding-top: 30px;
+		padding-bottom: 10px;
+	}
+	
+	body {
+		margin: 60px;
+  
+  line-height: 32px;
+  background-image: url("assets/images/ep_naturalwhite.png");
+}
+	#middle{
+		height:800px;
+		background-image: url("../images/ep_naturalwhite.png");
+		border-color: #4aaaa5;
+
+	}
+	#contentBox{
+		border:solid;
+		border-color: #4aaaa5;
+		background-color: white;
+		padding: 20px;
+		margin-top: 40px;
+		margin-left: 40px;
+		float:left;
+		width:800px;
+	}
+	#contentBox>img {
+		width: 300px;
+		float:left;
+	}
+	#contentBox>p{
+		float:left;
+
+		padding:10px;
+	}
+	h2{
+		font-size:28pt;
+		color: #4aaaa5;
+		padding: 10px;
+	}
+	h3{
+		font-size:24pt;
+		color: #4aaaa5;
+		padding: 10px;
+	}
+	#profImg{
+		width:50%;
+	}
+	#connectBox{
+		float:right;
+		background-color: white;
+		padding: 40px;
+		border:solid;
+		border-color: #4aaaa5;
+		margin-top: 40px;
+		margin-left: 40px;
+		margin-right:40px;
+	}
+	#footerBox{
+		text-align:center;
+		clear:both;
+		background-color: #4aaaa5;
+		color: white;
+		padding: 40px;
+	}
+		@media screen and (max-width:768px) {
+	#contentBox{
+	background-color:black;
+	width:400px;
+	}
+	#contentBox>p{
+		float:left;
+		color:white;
+	}
+	#contentBox>ul{
+		float:left;
+		color:white;
+	}
+	#contentBox>img{
+		filter:invert(90);
+	}
+	#nav1{
+		float:left;
+	}
+	}
